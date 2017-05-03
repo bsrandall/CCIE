@@ -1,0 +1,236 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: General Routing
+  version:
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: IPv4 Routing
+    output: web, pdf
+    folderitems:
+
+    - title: IPv4 Addressing
+      url: /3.1.1.html
+      output: web, pdf
+
+    - title: IPv4 ARP
+      url: /3.1.2.html
+      output: web, pdf
+
+    - title: Longest Match Routing
+      url: /3.1.3.html
+      output: web, pdf
+
+    - title: Administrative Distance
+      url: /3.1.4.html
+      output: web, pdf
+
+    - title: Static Routing
+      url: /3.1.5.html
+      output: web, pdf
+
+    - title: Route Recursion
+      url: /3.1.6.html
+      output: web, pdf
+
+    - title: Egress Interface vs Next Hop Address Routing
+      url: /3.1.7.html
+      output: web, pdf
+
+    - title: Default Routing
+      url: /3.1.8.html
+      output: web, pdf
+
+    - title: CEF
+      url: /3.1.9.html
+      output: web, pdf
+
+    - title: Floating Static Routes
+      url: /3.1.10.html
+      output: web, pdf
+
+    - title: Backup Interface
+      url: /3.1.11.html
+      output: web, pdf
+
+    - title: IP Service Level Agreement
+      url: /3.1.12.html
+      output: web, pdf
+
+    - title: Enhanced Object Tracking
+      url: /3.1.13.html
+      output: web, pdf
+
+    - title: Policy Routing
+      url: /3.1.14.html
+      output: web, pdf
+
+    - title: Policy Routing and IP SLA
+      url: /3.1.15.html
+      output: web, pdf
+
+    - title: Local Policy Routing
+      url: /3.1.16.html
+      output: web, pdf
+
+    - title: GRE Tunnels
+      url: /3.1.17.html
+      output: web, pdf
+
+    - title: IP in IP Tunnels
+      url: /3.1.18.html
+      output: web, pdf
+
+    - title: Tunnels & Recursive Routing Issues
+      url: /3.1.19.html
+      output: web, pdf
+
+    - title: On Demand Routing
+      url: /3.1.20.html
+      output: web, pdf
+
+    - title: VRF Lite
+      url: /3.1.21.html
+      output: web, pdf
+
+    - title: Bidirectional Forwarding Detection
+      url: /3.1.22.html
+      output: web, pdf
+
+    - title: Performance Routing (PfR)
+      url: /3.1.23.html
+      output: web, pdf
+
+  - title: IPv6 Routing
+    output: web, pdf
+    folderitems:
+
+    - title: IPv6 Addressing
+      url: /3.2.0.99.1.html
+      output: web, pdf
+
+    - title: IPv6 Link-Local Addressing
+      url: /3.2.1.html
+      output: web, pdf
+
+    - title: IPv6 Unique Local Addressing
+      url: /3.2.2.html
+      output: web, pdf
+
+    - title: IPv6 Global Aggregatable Addressing
+      url: /3.2.3.html
+      output: web, pdf
+
+    - title: IPv6 EUI-64 Addressing
+      url: /3.2.4.html
+      output: web, pdf
+
+    - title: IPv6 Auto-Configuration / SLAAC
+      url: /3.2.5.html
+      output: web, pdf
+
+    - title: IPv6 Global Prefix
+      url: /3.2.6.html
+      output: web, pdf
+
+    - title: IPv6 Redistribution
+      url: /3.2.7.html
+      output: web, pdf
+
+    - title: IPv6 Filtering
+      url: /3.2.8.html
+      output: web, pdf
+
+    - title: IPv6 NAT-PT
+      url: /3.2.9a.html
+      output: web, pdf
+
+    - title: IPv6 NAT64
+      url: /3.2.9b.html
+      output: web, pdf
+
+    - title: IPv6 MP-BGP
+      url: /3.2.10.html
+      output: web, pdf
+
+    - title: IPv6 Tunneling
+      url: /3.2.11.html
+      output: web, pdf
+
+    - title: Automatic 6to4 Tunneling
+      url: /3.2.12.html
+      output: web, pdf
+
+    - title: ISATAP Tunneling
+      url: /3.2.13.html
+      output: web, pdf
+
+    - title: Neighbor Discovery Protocol
+      url: /3.2.14.99.1.html
+      output: web, pdf
+
+    - title: IPv6 Address Types
+      url: /3.2.14.99.2.html
+      output: web, pdf
+
+  - title: Dynamic Routing Protocol Features
+    output: web, pdf
+    folderitems:
+
+    - title: Routing Protocol Comparison
+      url: /3.3.1.html
+      output: web, pdf
+
+    - title: Passive Interfaces
+      url: /3.3.2.html
+      output: web, pdf
+
+    - title: Routing Protocol Authentication
+      url: /3.3.3.html
+      output: web, pdf
+
+    - title: Route Filtering
+      url: /3.3.4.html
+      output: web, pdf
+
+    - title: Auto Summarization
+      url: /3.3.5.html
+      output: web, pdf
+
+    - title: Manual Summarization
+      url: /3.3.6.html
+      output: web, pdf
+
+    - title: RR - Prefix Filtering w/ Tags
+      url: /3.3.7.1.html
+      output: web, pdf
+
+    - title: RR - Prefix Filtering w/ Lists
+      url: /3.3.7.2.html
+      output: web, pdf
+
+    - title: RR - Prefix Filtering w/ AD
+      url: /3.3.7.3.html
+      output: web, pdf
+
+    - title: Administrative Distance Based Loops
+      url: /3.3.7.4.html
+      output: web, pdf
+
+    - title: Metric Based Loops
+      url: /3.3.7.5.html
+      output: web, pdf

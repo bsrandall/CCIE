@@ -1,0 +1,32 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+    - title: Cisco DOC-CD
+      external_url: http://www.cisco.com/cisco/web/psa/default.html?mode=prod
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: CCIE Websites
+      folderitems:
+        - title: Network Lessons
+          external_url: http://network-lessons.com
+        - title: INE Blog
+          external_url: http://blog.ine.com
+        - title: PacketLife.net
+          external_url: http://packetlife.net/blog
+        - title: The CCIE R&S
+          external_url: http://aitaseller.wordpress.com
+        - title: INE Blueprint
+          external_url: http://blog.ine.com/2014/04/17/ines-ccie-rsv5-expanded-blueprint/?s=blueprint
+    - title: Subjects
+      folderitems:
+        - title: Layer 2
+          url: /1.1.1.html
+        - title: General Routing
+          url: /3.1.1.html
+        - title: RIP
+          url: /3.4.1.0.99.1.html

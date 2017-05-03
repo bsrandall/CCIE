@@ -1,0 +1,321 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Layer 2
+  version: 
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: VLANs & Trunking
+    output: web, pdf
+    folderitems:
+
+    - title: Standard VLANs
+      url: /1.1.1.html
+      output: web, pdf
+      type: homepage
+
+    - title: Extended VLANs
+      url: /1.1.2.html
+      output: web, pdf
+
+    - title: VLAN Database
+      url: /1.1.3.html
+      output: web, pdf
+
+    - title: Access Ports
+      url: /1.1.4.html
+      output: web, pdf
+
+    - title: 802.1q Trunk Ports
+      url: /1.1.5.html
+      output: web, pdf
+
+    - title: 802.1q Native VLAN
+      url: /1.1.6.html
+      output: web, pdf
+
+    - title: Dynamic Trunking Protocol
+      url: /1.1.7.html
+      output: web, pdf
+
+    - title: Trunking Allowed List
+      url: /1.1.8.html
+      output: web, pdf
+
+    - title: Protected Port
+      url: /1.1.99.1.html
+      output: web, pdf
+
+    - title: Private VLAN
+      url: /1.1.99.2.html
+      output: web, pdf
+
+    - title: Storm Control
+      url: /1.1.99.3.html
+      output: web, pdf
+
+    - title: Virtual Switch System
+      url: /1.1.99.4.html
+      output: web, pdf
+
+    - title: Static MAC Address
+      url: /1.1.99.5.html
+      output: web, pdf
+
+  - title: VTP
+    output: web, pdf
+    folderitems:
+
+    - title: VTP Header
+      url: /1.2.0.99.1.html
+      output: web, pdf
+
+    - title: VTP Versions 1, 2 & 3
+      url: /1.2.1.html
+      output: web, pdf
+
+    - title: VTP Authentication
+      url: /1.2.2.html
+      output: web, pdf
+
+    - title: VTP Pruning
+      url: /1.2.3.html
+      output: web, pdf
+
+    - title: VTP Prune Eligible List
+      url: /1.2.4.html
+      output: web, pdf
+
+    - title: VTPv3 & Private VLANs
+      url: /1.2.5.html
+      output: web, pdf
+
+  - title: EtherChannels
+    output: web, pdf
+    folderitems:
+
+    - title: Static Layer 2 EtherChannels
+      url: /1.3.1.html
+      output: web, pdf
+
+    - title: PAgP
+      url: /1.3.2.html
+      output: web, pdf
+
+    - title: LACP
+      url: /1.3.3.html
+      output: web, pdf
+
+    - title: Layer 3 EtherChannel
+      url: /1.3.4.html
+      output: web, pdf
+
+    - title: EtherChannel Load Balancing
+      url: /1.3.5.html
+      output: web, pdf
+
+    - title: EtherChannel Protocol Limiting
+      url: /1.3.6.html
+      output: web, pdf
+
+    - title: EtherChannel Misconfig Guard
+      url: /1.3.7.html
+      output: web, pdf
+
+    - title: Multichasis EtherChannel
+      url: /1.3.99.1.html
+      output: web, pdf
+
+  - title: Spanning Tree General
+    output: web, pdf
+    folderitems:
+
+    - title: Spanning Tree Intro
+      url: /1.4.0.99.1.html
+      output: web, pdf
+
+    - title: Spanning Tree Types
+      url: /1.4.0.99.2.html
+      output: web, pdf
+
+    - title: STP Port Election
+      url: /1.4.0.99.3.html
+      output: web, pdf
+
+  - title: PVST+
+    output: web, pdf
+    folderitems:
+
+    - title: STP Root Bridge Election
+      url: /1.4.1.1.html
+      output: web, pdf
+
+    - title: STP Path Selection with Port Cost
+      url: /1.4.1.2.html
+      output: web, pdf
+
+    - title: STP Path Selection with Port Priority
+      url: /1.4.1.3.html
+      output: web, pdf
+
+    - title: STP Convergence Timers
+      url: /1.4.1.3.html
+      output: web, pdf
+
+    - title: Debugging STP
+      url: /1.4.1.99.1.html
+      output: web, pdf
+
+  - title: Optional PVST+ Features
+    output: web, pdf
+
+    folderitems:
+    - title: PortFast
+      url: /1.4.2.1.html
+      output: web, pdf
+
+    - title: UplinkFast
+      url: /1.4.2.2.html
+      output: web, pdf
+
+    - title: BackboneFast
+      url: /1.4.2.3.html
+      output: web, pdf
+
+    - title: BPDU Guard
+      url: /1.4.2.4.html
+      output: web, pdf
+
+    - title: BPDU Filter
+      url: /1.4.2.5.html
+      output: web, pdf
+
+    - title: Root Guard
+      url: /1.4.2.6.html
+      output: web, pdf
+
+    - title: Loop Guard
+      url: /1.4.2.99.1.html
+      output: web, pdf
+
+  - title: Rapid PVST+
+    output: web, pdf
+
+    folderitems:
+    - title: RSTP Convergence Optimizations
+      url: /1.4.3.1.html
+      output: web, pdf
+
+    - title: Edge Ports
+      url: /1.4.3.2.html
+      output: web, pdf
+
+    - title: Tags
+      url: /mydoc_tags.html
+      output: web, pdf
+
+  - title: Multiple Spanning Tree Protocol
+    output: web, pdf
+
+    folderitems:
+    - title: MST Root Bridge Election
+      url: /1.4.4.1.html
+      output: web, pdf
+
+    - title: MST Path Selection with Port Cost
+      url: /1.4.4.2.html
+      output: web, pdf
+
+    - title: MST Path Selection with Port Priority
+      url: /1.4.4.3.html
+      output: web, pdf
+
+    - title: MST and CST/PVST+ Interoperability
+      url: /1.4.4.4.html
+      output: web, pdf
+
+    - title: Multi-Region MST
+      url: /1.4.4.5.html
+      output: web, pdf
+
+  - title: Miscellaneous Layer 2
+    output: web, pdf
+
+    folderitems:
+    - title: CDP
+      url: /1.6.1.html
+      output: web, pdf
+
+    - title: LLDP
+      url: /1.6.2.html
+      output: web, pdf
+
+    - title: UDLD
+      url: /1.6.3.html
+      output: web, pdf
+
+    - title: CAM Aging Time
+      url: /1.6.4.html
+      output: web, pdf
+
+    - title: SPAN
+      url: /1.6.5.html
+      output: web, pdf
+
+    - title: RSPAN
+      url: /1.6.6.html
+      output: web, pdf
+
+    - title: ERSPAN
+      url: /1.6.7.html
+      output: web, pdf
+
+    - title: Fallback Bridging
+      url: /1.6.9.html
+      output: web, pdf
+
+    - title: Voice VLANs
+      url: /1.6.10.html
+      output: web, pdf
+
+    - title: Smartport Macros
+      url: /1.6.11.html
+      output: web, pdf
+
+  - title: Layer 2 WAN
+    output: web, pdf
+
+    folderitems:
+    - title: HDLC
+      url: /2.1.html
+      output: web, pdf
+
+    - title: PPP
+      url: /2.2.html
+      output: web, pdf
+
+    - title: PPP Authentication
+      url: /2.3.html
+      output: web, pdf
+
+    - title: PPP Multilink
+      url: /2.4.html
+      output: web, pdf
+
+    - title: PPPoE
+      url: /2.5.html
+      output: web, pdf

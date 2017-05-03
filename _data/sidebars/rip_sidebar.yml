@@ -1,0 +1,148 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: RIP
+  version:
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: RIPv2 Initialization
+    output: web, pdf
+    folderitems:
+
+    - title: RIP Messages
+      url: /3.4.1.0.99.1.html
+      output: web, pdf
+
+    - title: RIP Classful Routing
+      url: /3.4.1.0.99.2.html
+      output: web, pdf
+
+    - title: Enabling RIPv2
+      url: /3.4.1.1.1.html
+      output: web, pdf
+
+    - title: RIP Send and Receive Versions
+      url: /3.4.1.1.2.html
+      output: web, pdf
+
+    - title: Split Horizon
+      url: /3.4.1.1.3.html
+      output: web, pdf
+
+    - title: RIPv2 Unicast Updates
+      url: /3.4.1.1.4.html
+      output: web, pdf
+
+    - title: RIPv2 Broadcast Updates
+      url: /3.4.1.1.5.html
+      output: web, pdf
+
+    - title: RIPv2 Source Validation
+      url: /3.4.1.1.6.html
+      output: web, pdf
+
+  - title: RIPv2 Path Selection
+    output: web, pdf
+    folderitems:
+
+    - title: Offset List
+      url: /3.4.1.2.1.html
+      output: web, pdf
+
+  - title: Summarization
+    output: web, pdf
+    folderitems:
+
+    - title: Auto-Summary
+      url: /3.4.1.3.1.html
+      output: web, pdf
+
+    - title: Manual Summarization
+      url: /3.4.1.3.2.html
+      output: web, pdf
+
+  - title: RIPv2 Authentication
+    output: web, pdf
+    folderitems:
+
+    - title: Clear Text
+      url: /3.4.1.4.1.html
+      output: web, pdf
+
+    - title: MD5
+      url: /3.4.1.4.2.html
+      output: web, pdf
+
+  - title: RIPv2 Filtering
+    output: web, pdf
+
+    folderitems:
+    - title: Filtering with Passive Interface
+      url: /3.4.1.6.1.html
+      output: web, pdf
+
+    - title: Filtering with Prefix-Lists
+      url: /3.4.1.6.2.html
+      output: web, pdf
+
+    - title: Filtering with Standard Access-Lists
+      url: /3.4.1.6.3.html
+      output: web, pdf
+
+    - title: Filtering with Extended Access-Lists
+      url: /3.4.1.6.4.html
+      output: web, pdf
+
+    - title: Filtering with Offset Lists
+      url: /3.4.1.6.5.html
+      output: web, pdf
+
+    - title: Filtering with Administrative Distance
+      url: /3.4.1.6.6.html
+      output: web, pdf
+
+    - title: Filtering with Per Neighbor AD
+      url: /3.4.1.6.7.html
+      output: web, pdf
+
+  - title: Default Routing
+    output: web, pdf
+
+    folderitems:
+    - title: RIPv2 Default Routing
+      url: /1.4.3.1.html
+      output: web, pdf
+
+    - title: RIPv2 Conditional Default Routing
+      url: /1.4.3.2.html
+      output: web, pdf
+
+    - title: RIPv2 Reliable Conditional Default Routing
+      url: /mydoc_tags.html
+      output: web, pdf
+
+  - title: RIPng
+    output: web, pdf
+
+    folderitems:
+    - title: RIPng Overview
+      url: /3.4.2.1.html
+      output: web, pdf
+
+    - title: RIPng Configuration
+      url: /3.4.2.99.1.html
+      output: web, pdf
