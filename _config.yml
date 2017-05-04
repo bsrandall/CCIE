@@ -29,7 +29,7 @@ exclude:
   - .gitignore
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_disable: false
+feedback_disable: true
 
 feedback_subject_line:
 
