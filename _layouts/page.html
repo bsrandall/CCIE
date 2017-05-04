@@ -63,8 +63,45 @@ layout: default
 {% include disqus.html %}
 {% endcomment %}
 
+
+{% if site.pages %}
+{% assign document = site.pages | sort: "title" %}
+{% endif %}
+
+{% for links in document %}
+{% if links.title == page.title %}
+
+    {% unless forloop.first %}
+        {% assign prevurl = prev.url %}
+
+        {% assign prevtitle = prev.short-title %}
+    {% endunless %}
+
+    {% unless forloop.last %}
+        {% assign next = document[forloop.index] %}
+
+        {% assign nexturl = next.url %}
+
+        {% assign nexttitle = next.short-title %}
+    {% endunless %}
+{% endif %}
+
+{% assign prev = links %}
+{% endfor %}
+
+{% if prevurl or nexturl %}
+<div class="lagination">
+    {% if prevurl %}<a href="{{prevurl}}" class="prev .lagination-item"><i class="fa fa-angle-left"></i> {{ prevtitle}}</a>{% endif %}
+    {% if nexturl %}<a href="{{nexturl}}" class="next .lagination-item">{{nexttitle}} <i class="fa fa-angle-right"></i></a>{% endif %}
+</div>
+{% endif %}
+
+
+
 </div>
 
 {{site.data.alerts.hr_shaded}}
 
+{% comment %}
 {% include footer.html %}
+{% endcomment %}
