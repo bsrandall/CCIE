@@ -1,22 +1,19 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
 
 entries:
-- title: Sidebar
+- title: Home
   levels: one
   folders:
 
-  - title: Products
+  - title: Subjects
     output: web
     folderitems:
-    - title: News
-      url: /news.html
+    - title: Layer 2
+      url: /1.1.1.html
       output: web
-    - title: Theme instructions
-      url: /mydoc_introduction.html
+    - title: General Routing
+      url: /3.1.1.html
       output: web
-    - title: Product 1
-      url: /p1_landing_page.html
-      output: web
-    - title: Product 2
-      url: /p2_landing_page.html
+    - title: RIPv2
+      url: /3.4.1.0.99.1.html
       output: web
