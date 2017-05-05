@@ -3906,11 +3906,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
   border-color: #5c8840;
 }
 .navbar-inverse .navbar-brand {
-  color: #000000;
+  color: #494949;
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
-  color: #ffffff;
+  color: #000000;
   background-color: transparent;
 }
 .navbar-inverse .navbar-text {
