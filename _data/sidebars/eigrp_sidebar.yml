@@ -26,6 +26,7 @@ entries:
     - title: EIGRP General
       url: /3.5.1.0.99.1.html
       output: web, pdf
+      type: homepage
 
     - title: Network Statement
       url: /3.5.1.1.html

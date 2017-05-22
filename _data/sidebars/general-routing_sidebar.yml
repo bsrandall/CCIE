@@ -26,6 +26,7 @@ entries:
     - title: IPv4 Addressing
       url: /3.1.1.html
       output: web, pdf
+      type: homepage
 
     - title: IPv4 ARP
       url: /3.1.2.html
