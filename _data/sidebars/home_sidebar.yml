@@ -17,3 +17,6 @@ entries:
     - title: RIPv2
       url: /3.4.1.0.99.1.html
       output: web
+    - title: EIGRP
+      url: /3.5.1.0.99.1.html
+      output: web

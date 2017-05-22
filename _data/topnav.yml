@@ -30,3 +30,5 @@ topnav_dropdowns:
           url: /3.1.1.html
         - title: RIP
           url: /3.4.1.0.99.1.html
+        - title: EIGRP
+          url: /3.5.1.0.99.1.html

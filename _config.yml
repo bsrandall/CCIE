@@ -99,6 +99,7 @@ sidebars:
 - layer2_sidebar
 - general-routing_sidebar
 - rip_sidebar
+- eigrp_sidebar
 - other
 
 description: "CCIE Expanded Blueprint Documentation"

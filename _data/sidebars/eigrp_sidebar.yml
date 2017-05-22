@@ -1,0 +1,264 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: EIGRP
+  version:
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: EIGRP Initialization
+    output: web, pdf
+    folderitems:
+
+    - title: EIGRP General
+      url: /3.5.1.0.99.1.html
+      output: web, pdf
+
+    - title: EIGRP Reserved TBD
+      url: /3.5.1.0.99.2.html
+      output: web, pdf
+
+    - title: Network Statement
+      url: /3.5.1.1.html
+      output: web, pdf
+
+    - title: Multicast vs Unicast Updates
+      url: /3.5.1.2.html
+      output: web, pdf
+
+    - title: EIGRP Named Mode
+      url: /3.5.1.3.html
+      output: web, pdf
+
+    - title: EIGRP Multi AF Mode
+      url: /3.5.1.4.html
+      output: web, pdf
+
+    - title: EIGRP Split Horizon
+      url: /3.5.1.5.html
+      output: web, pdf
+
+    - title: EIGRP Next-Hop Processing
+      url: /3.5.1.6.html
+      output: web, pdf
+
+  - title: EIGRP Path Selection
+    output: web, pdf
+    folderitems:
+
+    - title: Feasibility Condition
+      url: /3.5.2.1.html
+      output: web, pdf
+
+    - title: Modifying EIGRP Vector Attributes
+      url: /3.5.2.2.html
+      output: web, pdf
+
+    - title: Classic Metric
+      url: /3.5.2.3.html
+      output: web, pdf
+
+    - title: Wide Metric
+      url: /3.5.2.4.html
+      output: web, pdf
+
+    - title: Metric Weights
+      url: /3.5.2.5.html
+      output: web, pdf
+
+    - title: Equal Cost Load Balancing
+      url: /3.5.2.6.html
+      output: web, pdf
+
+    - title: Unequal Cost Load Balancing
+      url: /3.5.2.7.html
+      output: web, pdf
+
+    - title: EIGRP Add-Path
+      url: /3.5.2.8.html
+      output: web, pdf
+
+  - title: Summarization
+    output: web, pdf
+    folderitems:
+
+    - title: Auto-Summary
+      url: /3.5.3.1.html
+      output: web, pdf
+
+    - title: Manual Summarization
+      url: /3.5.3.2.html
+      output: web, pdf
+
+    - title: Summarization with Default Routing
+      url: /3.5.3.3.html
+      output: web, pdf
+
+    - title: Summarization with Leak Map
+      url: /3.5.3.4.html
+      output: web, pdf
+
+    - title: Summarization Metric
+      url: /3.5.3.5.html
+      output: web, pdf
+
+  - title: Authentication
+    output: web, pdf
+    folderitems:
+
+    - title: MD5
+      url: /3.5.4.1.html
+      output: web, pdf
+
+    - title: HMAC SHA2-256bit
+      url: /3.5.4.2.html
+      output: web, pdf
+
+    - title: Automatic Key Rollover
+      url: /3.5.4.3.html
+      output: web, pdf
+
+  - title: Filtering
+    output: web, pdf
+
+    folderitems:
+    - title: Filtering with Passive Interface
+      url: /3.5.6.1.html
+      output: web, pdf
+
+    - title: Filtering with Prefix-Lists
+      url: /3.5.6.2.html
+      output: web, pdf
+
+    - title: Filtering with Standard Access-Lists
+      url: /3.5.6.3.html
+      output: web, pdf
+
+    - title: Filtering with Extended Access-Lists
+      url: /3.5.6.4.html
+      output: web, pdf
+
+    - title: Filtering with Offset Lists
+      url: /3.5.6.5.html
+      output: web, pdf
+
+    - title: Filtering with Administrative Distance
+      url: /3.5.6.6.html
+      output: web, pdf
+
+    - title: Filtering with Per Neighbor AD
+      url: /3.5.6.7.html
+      output: web, pdf
+
+    - title: Filtering with Route Maps
+      url: /3.5.6.8.html
+      output: web, pdf
+
+    - title: Per Neighbor Prefix Limit
+      url: /3.5.6.9.html
+      output: web, pdf
+
+    - title: Redistribution Prefix Limit
+      url: /3.5.6.10.html
+      output: web, pdf
+
+  - title: Miscellaneous EIGRP
+    output: web, pdf
+
+    folderitems:
+    - title: EIGRP Default Network
+      url: /3.5.7.1.html
+      output: web, pdf
+
+    - title: EIGRP Default Metric
+      url: /3.5.7.2.html
+      output: web, pdf
+
+    - title: EIGRP Neighbor Logging
+      url: /3.5.7.3.html
+      output: web, pdf
+
+    - title: EIGRP Router ID
+      url: /3.5.7.4.html
+      output: web, pdf
+
+    - title: EIGRP Maximum Hops
+      url: /3.5.7.5.html
+      output: web, pdf
+
+    - title: no next-hop-self no-ecmp-mode
+      url: /3.5.7.6.html
+      output: web, pdf
+
+    - title: EIGRP Route Tag Enhancements
+      url: /3.5.7.7.html
+      output: web, pdf
+
+  - title: EIGRPv6
+    output: web, pdf
+
+    folderitems:
+    - title: Enabling EIGRPv6
+      url: /3.5.8.1.html
+      output: web, pdf
+
+    - title: EIGRPv6 Split Horizon
+      url: /3.5.8.2.html
+      output: web, pdf
+
+    - title: EIGRPv6 Next-Hop Processing
+      url: /3.5.8.3.html
+      output: web, pdf
+
+    - title: EIGRPv6 Authentication
+      url: /3.5.8.4.html
+      output: web, pdf
+
+    - title: EIGRPv6 Metric Manipulation
+      url: /3.5.8.5.html
+      output: web, pdf
+
+    - title: EIGRPv6 Default Routing
+      url: /3.5.8.6.html
+      output: web, pdf
+
+    - title: EIGRPv6 Summarization
+      url: /3.5.8.7.html
+      output: web, pdf
+
+    - title: EIGRPv6 Prefix Filtering
+      url: /3.5.8.8.html
+      output: web, pdf
+
+    - title: EIGRPv6 Stub Routing
+      url: /3.5.8.9.html
+      output: web, pdf
+
+    - title: EIGRPv6 Link Bandwidth
+      url: /3.5.8.10.html
+      output: web, pdf
+
+    - title: EIGRPv6 Timers
+      url: /3.5.8.11.html
+      output: web, pdf
+
+    - title: EIGRPv6 IPv6 VRF Lite
+      url: /3.5.8.12.html
+      output: web, pdf
+
+    - title: EIGRPv6 Over The Top
+      url: /3.5.8.13.html
+      output: web, pdf
