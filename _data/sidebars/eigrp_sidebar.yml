@@ -27,10 +27,6 @@ entries:
       url: /3.5.1.0.99.1.html
       output: web, pdf
 
-    - title: EIGRP Reserved TBD
-      url: /3.5.1.0.99.2.html
-      output: web, pdf
-
     - title: Network Statement
       url: /3.5.1.1.html
       output: web, pdf
