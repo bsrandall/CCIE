@@ -72,7 +72,7 @@ samp {
   font-size: 1em;
 }
 pre {
-  white-space: pre-wrap;
+  white-space: pre;
 }
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
@@ -598,21 +598,22 @@ pre {
 }
 code {
   padding: 2px 4px;
-  font-size: 90%;
+  font-size: 80%;
   color: #444;
   background-color: #f0f0f0;
-  white-space: nowrap;
+  white-space: pre;
   border-radius: 4px;
 }
 
 pre {
+  overflow-x: auto;
   display: block;
   padding: 9.5px;
   margin: 0 0 10px;
   font-size: 13px;
   line-height: 1.428571429;
-  word-break: break-all;
-  word-wrap: break-word;
+/*  word-break: normal;
+  word-wrap: normal;*/
   color: #77777a;
   background-color: #f5f5f5;
   border: 1px solid #cccccc;
@@ -622,11 +623,12 @@ pre.prettyprint {
   margin-bottom: 20px;
 }
 pre code {
+  word-wrap: normal;
   padding: 0;
   font-size: 20px;
   font-family: "Courier New"
   color: inherit;
-  white-space: pre-wrap;
+  white-space: pre;
   background-color: transparent;
   border: 0;
 }
