@@ -224,10 +224,6 @@ entries:
       url: /1.4.3.2.html
       output: web, pdf
 
-    - title: Tags
-      url: /mydoc_tags.html
-      output: web, pdf
-
   - title: Multiple Spanning Tree Protocol
     output: web, pdf
 
