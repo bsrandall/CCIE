@@ -1,0 +1,362 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: EIGRP
+  version:
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: OSPF Initialization
+    output: web, pdf
+    folderitems:
+
+    - title: OSPF General
+      url: /3.6.1.0.99.1.html
+      output: web, pdf
+      type: homepage
+
+    - title: Network Statement
+      url: /3.6.1.1.html
+      output: web, pdf
+
+    - title: Interface Statement
+      url: /3.6.1.2.html
+      output: web, pdf
+
+  - title: OSPF Network Types
+    output: web, pdf
+    folderitems:
+
+    - title: Broadcast
+      url: /3.6.2.1.html
+      output: web, pdf
+
+    - title: Non-Broadcast
+      url: /3.6.2.2.html
+      output: web, pdf
+
+    - title: DR/BDR Election Manipulation
+      url: /3.6.2.3.html
+      output: web, pdf
+
+    - title: Point-to-Point
+      url: /3.6.2.4.html
+      output: web, pdf
+
+    - title: Point-to-Multipoint
+      url: /3.6.2.5.html
+      output: web, pdf
+
+    - title: Point-to-Multipoint Non-Broadcast
+      url: /3.6.2.6.html
+      output: web, pdf
+
+    - title: Loopback
+      url: /3.6.2.7.html
+      output: web, pdf
+
+    - title: LSA Types
+      url: /3.6.2.8.html
+      output: web, pdf
+
+    - title: OSPF Next-hop Processing
+      url: /3.6.2.9.html
+      output: web, pdf
+
+    - title: Unicast vs Multicast Hellos
+      url: /3.6.2.10.html
+      output: web, pdf
+
+
+  - title: Path Selection
+    output: web, pdf
+    folderitems:
+
+    - title: Auto-Cost
+      url: /3.6.3.1.html
+      output: web, pdf
+
+    - title: Cost
+      url: /3.6.3.2.html
+      output: web, pdf
+
+    - title: Bandwidth
+      url: /3.6.3.3.html
+      output: web, pdf
+
+    - title: Per-Neighbor Cost
+      url: /3.6.3.4.html
+      output: web, pdf
+
+    - title: Non-Backbone Transit Areas
+      url: /3.6.3.5.html
+      output: web, pdf
+
+    - title: Virtual Links
+      url: /3.6.3.6.html
+      output: web, pdf
+
+  - title: Authentication
+    output: web, pdf
+    folderitems:
+
+    - title: Area
+      url: /3.6.4.1.html
+      output: web, pdf
+
+    - title: Interface Level
+      url: /3.6.4.2.html
+      output: web, pdf
+
+    - title: Clear Text
+      url: /3.6.4.3.html
+      output: web, pdf
+
+    - title: MD5
+      url: /3.6.4.1.html
+      output: web, pdf
+
+    - title: Null
+      url: /3.6.4.2.html
+      output: web, pdf
+
+    - title: MD5 with Multiple Keys
+      url: /3.6.4.3.html
+      output: web, pdf
+
+    - title: SHA1-196
+      url: /3.6.4.1.html
+      output: web, pdf
+
+    - title: Virtual Link
+      url: /3.6.4.2.html
+      output: web, pdf
+
+  - title: Summarization
+    output: web, pdf
+    folderitems:
+
+    - title: Internal Summarization
+      url: /3.6.5.1.html
+      output: web, pdf
+
+    - title: External Summarization
+      url: /3.6.5.2.html
+      output: web, pdf
+
+    - title: Path Selection with Summarization
+      url: /3.6.5.3.html
+      output: web, pdf
+
+    - title: Summarization and Discard Routes
+      url: /3.6.5.4.html
+      output: web, pdf
+
+  - title: Stub Areas
+    output: web, pdf
+
+    folderitems:
+    - title: Stub Areas
+      url: /3.6.6.1.html
+      output: web, pdf
+
+    - title: Totally Stubby Areas
+      url: /3.6.6.2.html
+      output: web, pdf
+
+    - title: Not-So-Stubby Areas
+      url: /3.6.6.3.html
+      output: web, pdf
+
+    - title: Not-So-Stubby Areas and Default Routing
+      url: /3.6.6.4.html
+      output: web, pdf
+
+    - title: Not-So-Totally-Stubby Areas
+      url: /3.6.6.5.html
+      output: web, pdf
+
+    - title: Stub Areas with Multiple Exit Points
+      url: /3.6.6.6.html
+      output: web, pdf
+
+    - title: NSSA Type-7 to Type-5 Translator Election
+      url: /3.6.6.7.html
+      output: web, pdf
+
+    - title: NSSA Redistribution Filtering
+      url: /3.6.6.8.html
+      output: web, pdf
+
+  - title: Filtering
+    output: web, pdf
+
+    folderitems:
+    - title: Filtering with Distribute-Lists
+      url: /3.6.7.1.html
+      output: web, pdf
+
+    - title: Filtering with Administrative Distance
+      url: /3.6.7.2.html
+      output: web, pdf
+
+    - title: Filtering with Route Maps
+      url: /3.6.7.3.html
+      output: web, pdf
+
+    - title: Filtering with Summarization
+      url: /3.6.7.4.html
+      output: web, pdf
+
+    - title: LSA Type-3 Filtering
+      url: /3.6.7.5.html
+      output: web, pdf
+
+    - title: Forwarding Address Suppression
+      url: /3.6.7.6.html
+      output: web, pdf
+
+    - title: NSSA ABR External Prefix Filtering
+      url: /3.6.7.7.html
+      output: web, pdf
+
+    - title: Database Filtering
+      url: /3.6.7.8.html
+      output: web, pdf
+
+  - title: Default Routing
+    output: web, pdf
+
+    folderitems:
+    - title: Default Routing
+      url: /3.6.8.1.html
+      output: web, pdf
+
+    - title: Conditional Default Routing
+      url: /3.6.8.2.html
+      output: web, pdf
+
+    - title: Reliable Conditional Default Routing
+      url: /3.6.8.3.html
+      output: web, pdf
+
+    - title: Default Cost
+      url: /3.6.8.4.html
+      output: web, pdf
+
+  - title: Convergence Optimization & Scalability
+    output: web, pdf
+
+    folderitems:
+    - title: Interface Timers
+      url: /3.6.9.1.html
+      output: web, pdf
+
+    - title: Fast Hellos
+      url: /3.6.9.2.html
+      output: web, pdf
+
+    - title: LSA & SPF Throttling
+      url: /3.6.9.3.html
+      output: web, pdf
+
+    - title: LSA & SPF Pacing
+      url: /3.6.9.4.html
+      output: web, pdf
+
+    - title: Single Hop LFA / IP FRR
+      url: /3.6.9.5.html
+      output: web, pdf
+
+    - title: Multihop LFA
+      url: /3.6.9.6.html
+      output: web, pdf
+
+    - title: Stub Router Advertisement
+      url: /3.6.9.7.html
+      output: web, pdf
+
+    - title: Demand Circuit
+      url: /3.6.9.8.html
+      output: web, pdf
+
+    - title: Flooding Reduction
+      url: /3.6.9.9.html
+      output: web, pdf
+
+    - title: Transit Prefix Filtering
+      url: /3.6.9.10.html
+      output: web, pdf
+
+    - title: Resource Limiting
+      url: /3.6.9.11.html
+      output: web, pdf
+
+    - title: Graceful Restart & NSF
+      url: /3.6.9.12.html
+      output: web, pdf
+
+    - title: Incremental SPF
+      url: /3.6.9.13.html
+      output: web, pdf
+
+  - title: Miscellaneous OSPF
+    output: web, pdf
+
+    folderitems:
+    - title: TBD
+      url: /3.6.10.1.html
+      output: web, pdf
+
+  - title: OSPFv3
+    output: web, pdf
+
+    folderitems:
+    - title: LSA Types
+      url: /3.6.11.1.html
+      output: web, pdf
+
+    - title: OSPFv3 General
+      url: /3.6.11.2.html
+      output: web, pdf
+
+    - title: OSPFv3 Network Types
+      url: /3.6.11.3.html
+      output: web, pdf
+
+    - title: OSPFv3 Prefix Supression
+      url: /3.6.11.4.html
+      output: web, pdf
+
+    - title: OSPFv3 Virtual Links
+      url: /3.6.11.5.html
+      output: web, pdf
+
+    - title: OSPFv3 Summarization
+      url: /3.6.11.6.html
+      output: web, pdf
+
+    - title: OSPFv3 IPSec Authentication
+      url: /3.6.11.7.html
+      output: web, pdf
+
+    - title: OSPFv3 Multi AF Mode
+      url: /3.6.11.8.html
+      output: web, pdf
+
+    - title: TTL Security
+      url: /3.6.11.9.html
+      output: web, pdf
