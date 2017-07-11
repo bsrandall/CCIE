@@ -126,23 +126,23 @@ entries:
       output: web, pdf
 
     - title: MD5
-      url: /3.6.4.1.html
+      url: /3.6.4.4.html
       output: web, pdf
 
     - title: Null
-      url: /3.6.4.2.html
+      url: /3.6.4.5.html
       output: web, pdf
 
     - title: MD5 with Multiple Keys
-      url: /3.6.4.3.html
+      url: /3.6.4.6.html
       output: web, pdf
 
     - title: SHA1-196
-      url: /3.6.4.1.html
+      url: /3.6.4.7.html
       output: web, pdf
 
     - title: Virtual Link
-      url: /3.6.4.2.html
+      url: /3.6.4.8.html
       output: web, pdf
 
   - title: Summarization
