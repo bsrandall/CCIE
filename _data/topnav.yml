@@ -34,3 +34,5 @@ topnav_dropdowns:
           url: /3.5.1.0.99.1.html
         - title: OSPF
           url: /3.6.1.0.99.1.html
+        - title: BGP
+          url: /3.7.1.0.1.html
