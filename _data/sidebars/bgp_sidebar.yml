@@ -1,0 +1,384 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: BGP
+  version:
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: Establishing Peerings
+    output: web, pdf
+    folderitems:
+
+    - title: BGP Basics
+      url: /3.7.1.0.1.html
+      output: web, pdf
+
+    - title: iBGP Peerings
+      url: /3.7.1.1.html
+      output: web, pdf
+
+    - title: eBGP Peerings
+      url: /3.7.1.2.html
+      output: web, pdf
+
+    - title: Update Source Modifications
+      url: /3.7.1.3.html
+      output: web, pdf
+
+    - title: Multihop eBGP Peerings
+      url: /3.7.1.4.html
+      output: web, pdf
+
+    - title: Neighbor Disable-Connected Check
+      url: /3.7.1.5.html
+      output: web, pdf
+
+    - title: Authentication
+      url: /3.7.1.6.html
+      output: web, pdf
+
+    - title: TTL Security
+      url: /3.7.1.7.html
+      output: web, pdf
+
+    - title: BGP Peer Groups
+      url: /3.7.1.8.html
+      output: web, pdf
+
+    - title: Byte ASNs
+      url: /3.7.1.9.html
+      output: web, pdf
+
+    - title: Active vs Passive Peers
+      url: /3.7.1.10.html
+      output: web, pdf
+
+    - title: Path MTU Discovery
+      url: /3.7.1.11.html
+      output: web, pdf
+
+    - title: Multi Session TCP Transport per AF
+      url: /3.7.1.12.html
+      output: web, pdf
+
+    - title: Dynamic BGP Peering
+      url: /3.7.1.13.html
+      output: web, pdf
+
+  - title: iBGP Scaling
+    output: web, pdf
+    folderitems:
+
+    - title: Route Reflectors
+      url: /3.7.2.1.html
+      output: web, pdf
+
+    - title: Route Reflector Clusters
+      url: /3.7.2.2.html
+      output: web, pdf
+
+    - title: Confederations
+      url: /3.7.2.3.html
+      output: web, pdf
+
+  - title: BGP Next Hop Processing
+    output: web, pdf
+    folderitems:
+
+    - title: Next-Hop-Self
+      url: /3.7.3.1.html
+      output: web, pdf
+
+    - title: Manual Next-Hop Modification
+      url: /3.7.3.2.html
+      output: web, pdf
+
+    - title: Third Party Next Hop
+      url: /3.7.3.3.html
+      output: web, pdf
+
+    - title: Next Hop Tracking
+      url: /3.7.3.4.html
+      output: web, pdf
+
+    - title: Conditional Next-Hop Tracking
+      url: /3.7.3.5.html
+      output: web, pdf
+
+    - title: BGP Next-Hop Trigger Delay
+      url: /3.7.3.6.html
+      output: web, pdf
+
+  - title: BGP NLRI Origination
+    output: web, pdf
+    folderitems:
+
+    - title: Network Statement
+      url: /3.7.4.1.html
+      output: web, pdf
+
+    - title: Redistribution
+      url: /3.7.4.2.html
+      output: web, pdf
+
+    - title: BGP Redistribute Internal
+      url: /3.7.4.3.html
+      output: web, pdf
+
+    - title: Conditional Advertisement
+      url: /3.7.4.4.html
+      output: web, pdf
+
+    - title: Conditional Route Injection
+      url: /3.7.4.5.html
+      output: web, pdf
+
+  - title: BGP Bestpath Selection
+    output: web, pdf
+    folderitems:
+
+    - title: BGP Bestpath
+      url: /3.7.5.0.1.html
+      output: web, pdf
+
+    - title: Weight
+      url: /3.7.5.1.html
+      output: web, pdf
+
+    - title: Local Preference
+      url: /3.7.5.2.html
+      output: web, pdf
+
+    - title: AS-Path Prepending
+      url: /3.7.5.3.html
+      output: web, pdf
+
+    - title: Origin
+      url: /3.7.5.4.html
+      output: web, pdf
+
+    - title: MED
+      url: /3.7.5.5.html
+      output: web, pdf
+
+    - title: Always Compare MED
+      url: /3.7.5.6.html
+      output: web, pdf
+
+    - title: Deterministic MED
+      url: /3.7.5.7.html
+      output: web, pdf
+
+    - title: AS-Path Ignore
+      url: /3.7.5.8.html
+      output: web, pdf
+
+    - title: Router-IDs
+      url: /3.7.5.9.html
+      output: web, pdf
+
+    - title: DMZ Link Bandwidth
+      url: /3.7.5.10.html
+      output: web, pdf
+
+    - title: Maximum AS Limit
+      url: /3.7.5.11.html
+      output: web, pdf
+
+    - title: Multipath
+      url: /3.7.5.12.html
+      output: web, pdf
+
+  - title: BGP Aggregation
+    output: web, pdf
+
+    folderitems:
+    - title: BGP Auto-Summary
+      url: /3.7.6.1.html
+      output: web, pdf
+
+    - title: Aggregation
+      url: /3.7.6.2.html
+      output: web, pdf
+
+    - title: Summary Only
+      url: /3.7.6.3.html
+      output: web, pdf
+
+    - title: Suppress Map
+      url: /3.7.6.4.html
+      output: web, pdf
+
+    - title: Unsuppress Map
+      url: /3.7.6.5.html
+      output: web, pdf
+
+    - title: AS-Set
+      url: /3.7.6.6.html
+      output: web, pdf
+
+    - title: Attribute Map
+      url: /3.7.6.7.html
+      output: web, pdf
+
+    - title: Advertise Map
+      url: /3.7.6.8.html
+      output: web, pdf
+
+  - title: BGP Communities
+    output: web, pdf
+
+    folderitems:
+    - title: Standard
+      url: /3.7.6.1.html
+      output: web, pdf
+
+    - title: Extended
+      url: /3.7.6.2.html
+      output: web, pdf
+
+    - title: No-Advertise
+      url: /3.7.6.3.html
+      output: web, pdf
+
+    - title: No-Export
+      url: /3.7.6.4.html
+      output: web, pdf
+
+    - title: Local-AS
+      url: /3.7.6.5.html
+      output: web, pdf
+
+    - title: Deleting
+      url: /3.7.6.6.html
+      output: web, pdf
+
+  - title: Filtering
+    output: web, pdf
+
+    folderitems:
+    - title: Prefix-Lists
+      url: /3.7.8.1.html
+      output: web, pdf
+
+    - title: Standard Access-Lists
+      url: /3.7.8.2.html
+      output: web, pdf
+
+    - title: Extended Access-Lists
+      url: /3.7.8.3.html
+      output: web, pdf
+
+    - title: Maximum Prefix
+      url: /3.7.8.4.html
+      output: web, pdf
+
+    - title: BGP Regular Expressions
+      url: /3.7.8.5.html
+      output: web, pdf
+
+    - title: Outbound Route Filtering (ORF)
+      url: /3.7.8.6.html
+      output: web, pdf
+
+    - title: Soft Reconfiguration Inbound
+      url: /3.7.8.7.html
+      output: web, pdf
+
+  - title: AS-Path Manipulation
+    output: web, pdf
+
+    folderitems:
+    - title: Local AS
+      url: /3.7.9.1.html
+      output: web, pdf
+
+    - title: Local AS Replace-AS / Dual-AS
+      url: /3.7.9.2.html
+      output: web, pdf
+
+    - title: Remove Private AS
+      url: /3.7.9.3.html
+      output: web, pdf
+
+    - title: Allow AS In
+      url: /3.7.9.4.html
+      output: web, pdf
+
+    - title: AS Override
+      url: /3.7.9.5.html
+      output: web, pdf
+
+  - title: BGP Convergence Optimization
+    output: web, pdf
+
+    folderitems:
+    - title: BGP Timers Tuning
+      url: /3.7.10.1.html
+      output: web, pdf
+
+    - title: BGP Fast Fallover
+      url: /3.7.10.2.html
+      output: web, pdf
+
+    - title: BGP Prefix Independent Convergence (PIC)
+      url: /3.7.10.3.html
+      output: web, pdf
+
+    - title: BGP Dampening
+      url: /3.7.10.4.html
+      output: web, pdf
+
+    - title: BGP Dampening with Route-Map
+      url: /3.7.10.5.html
+      output: web, pdf
+
+    - title: BGP Add Path
+      url: /3.7.10.6.html
+      output: web, pdf
+
+  - title: BGP Default Routing
+    output: web, pdf
+
+    folderitems:
+    - title: BGP Default Routing Summary
+      url: /3.7.11.1.html
+      output: web, pdf
+
+  - title: IPv6 BGP
+    output: web, pdf
+
+    folderitems:
+    - title: IPv6 BGP
+      url: /3.7.12.1.html
+      output: web, pdf
+
+  - title: Miscellaneous BGP
+    output: web, pdf
+
+    folderitems:
+    - title: iBGP Synchronization
+      url: /3.7.13.1.html
+      output: web, pdf
+
+    - title: BGP over GRE
+      url: /3.7.13.2.html
+      output: web, pdf
+
+    - title: BGP Backdoor
+      url: /3.7.13.3.html
+      output: web, pdf

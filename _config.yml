@@ -101,6 +101,7 @@ sidebars:
 - rip_sidebar
 - eigrp_sidebar
 - ospf_sidebar
+- bgp_sidebar
 - other
 
 description: "CCIE Expanded Blueprint Documentation"
