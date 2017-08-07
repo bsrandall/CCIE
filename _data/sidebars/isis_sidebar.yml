@@ -1,0 +1,53 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: IS-IS
+  version:
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: IS-IS
+    output: web, pdf
+    folderitems:
+
+    - title: Basic IS-IS Network in a Single Area
+      url: /3.10.1.html
+      output: web, pdf
+      type: homepage
+
+    - title: IS-IS Neighbor Relationships
+      url: /3.10.2.html
+      output: web, pdf
+
+    - title: IS-IS Network Types
+      url: /3.10.3.html
+      output: web, pdf
+
+    - title: IS-IS Routing Levels
+      url: /3.10.4.html
+      output: web, pdf
+
+    - title: IS-IS Router Types
+      url: /3.10.5.html
+      output: web, pdf
+
+    - title: IS-IS Operations
+      url: /3.10.6.html
+      output: web, pdf
+
+    - title: IS-IS Metrics
+      url: /3.10.7.html
+      output: web, pdf

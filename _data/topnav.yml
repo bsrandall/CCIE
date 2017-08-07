@@ -36,3 +36,9 @@ topnav_dropdowns:
           url: /3.6.1.0.99.1.html
         - title: BGP
           url: /3.7.1.0.1.html
+        - title: Redistribution
+          url: /3.8.1.html
+        - title: IS-IS
+          url: /3.10.1
+        - title: Multicast
+          url: /5.1.1.html

@@ -19,6 +19,16 @@
 {% elsif page.sidebar == "bgp_sidebar" %}
 {% assign sidebar = site.data.sidebars.bgp_sidebar.entries %}
 
+{% elsif page.sidebar == "redistribution_sidebar" %}
+{% assign sidebar = site.data.sidebars.redistribution_sidebar.entries %}
+
+{% elsif page.sidebar == "isis_sidebar" %}
+{% assign sidebar = site.data.sidebars.isis_sidebar.entries %}
+
+{% elsif page.sidebar == "multicast_sidebar" %}
+{% assign sidebar = site.data.sidebars.multicast_sidebar.entries %}
+
+
 {% else %}
 {% assign sidebar = site.data.sidebars.home_sidebar.entries %}
 {% endif %}
@@ -42,7 +52,7 @@ sidebar configuration for print files
 {% endif %}
 
 {% if site.product == "eigrp" %}
-{% assign sidebar_pdf = site.data.sidebars.rip_sidebar.entries %}
+{% assign sidebar_pdf = site.data.sidebars.eigrp_sidebar.entries %}
 {% endif %}
 
 {% if site.product == "ospf" %}
@@ -51,4 +61,16 @@ sidebar configuration for print files
 
 {% if site.product == "bgp" %}
 {% assign sidebar_pdf = site.data.sidebars.bgp_sidebar.entries %}
+{% endif %}
+
+{% if site.product == "redistribution" %}
+{% assign sidebar_pdf = site.data.sidebars.redistribution_sidebar.entries %}
+{% endif %}
+
+{% if site.product == "isis" %}
+{% assign sidebar_pdf = site.data.sidebars.isis_sidebar.entries %}
+{% endif %}
+
+{% if site.product == "multicast" %}
+{% assign sidebar_pdf = site.data.sidebars.multicast_sidebar.entries %}
 {% endif %}

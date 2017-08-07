@@ -1,0 +1,196 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Multicast
+  version:
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: Layer 2 Multicast
+    output: web, pdf
+    folderitems:
+
+    - title: IGMPv1 - IGMPv3
+      url: /5.1.1.html
+      output: web, pdf
+
+    - title: IGMP Snooping
+      url: /5.1.2.html
+      output: web, pdf
+
+    - title: IGMP Querier Election
+      url: /5.1.3.html
+      output: web, pdf
+
+    - title: IGMP Filtering
+      url: /5.1.4.html
+      output: web, pdf
+
+    - title: IGMP Proxy
+      url: /5.1.5.html
+      output: web, pdf
+
+    - title: IGMP Timers
+      url: /5.1.6.html
+      output: web, pdf
+
+    - title: Multicast VLAN Registration
+      url: /5.1.7.html
+      output: web, pdf
+
+    - title: IGMP Profiles
+      url: /5.1.8.html
+      output: web, pdf
+
+  - title: IPv4 Multicast Routing
+    output: web, pdf
+    folderitems:
+
+    - title: PIM Dense Mode
+      url: /5.2.1.html
+      output: web, pdf
+
+    - title: PIM Sparse Mode
+      url: /5.2.2.html
+      output: web, pdf
+
+    - title: PIM Sparse Dense Mode
+      url: /5.2.3.html
+      output: web, pdf
+
+    - title: Static RP
+      url: /5.2.4.html
+      output: web, pdf
+
+    - title: Auto RP
+      url: /5.2.5.html
+      output: web, pdf
+
+    - title: Bootstrap Router
+      url: /5.2.6.html
+      output: web, pdf
+
+    - title: Source Specific Multicast
+      url: /5.2.7.html
+      output: web, pdf
+
+    - title: Bidirectional PIM
+      url: /5.2.8.html
+      output: web, pdf
+
+    - title: Group to RP Mapping
+      url: /5.2.9.html
+      output: web, pdf
+
+    - title: Anycast RP
+      url: /5.2.10.html
+      output: web, pdf
+
+    - title: MSDP
+      url: /5.2.11.html
+      output: web, pdf
+
+    - title: MSDP SA Filtering
+      url: /5.2.12.html
+      output: web, pdf
+
+    - title: Multicast TTL Scoping
+      url: /5.2.13.html
+      output: web, pdf
+
+    - title: Auto-RP and BSR Boundary Filtering
+      url: /5.2.14.html
+      output: web, pdf
+
+    - title: PIM Accept Register Filtering
+      url: /5.2.15.html
+      output: web, pdf
+
+    - title: PIM Accept RP Filtering
+      url: /5.2.16.html
+      output: web, pdf
+
+    - title: RPF Failure
+      url: /5.2.17.html
+      output: web, pdf
+
+    - title: Registration Failure
+      url: /5.2.18.html
+      output: web, pdf
+
+    - title: PIM DR Election
+      url: /5.2.19.html
+      output: web, pdf
+
+    - title: PIM DF Election
+      url: /5.2.20.html
+      output: web, pdf
+
+    - title: PIM Assert
+      url: /5.2.21.html
+      output: web, pdf
+
+    - title: Static Multicast Routes
+      url: /5.2.22.html
+      output: web, pdf
+
+    - title: Multicast BGP
+      url: /5.2.23.html
+      output: web, pdf
+
+    - title: PIM NBMA Mode
+      url: /5.2.24.html
+      output: web, pdf
+
+    - title: Multicast over GRE
+      url: /5.2.25.html
+      output: web, pdf
+
+    - title: Stub Multicast Routing
+      url: /5.2.26.html
+      output: web, pdf
+
+    - title: Multicast Helper Map
+      url: /5.2.27.html
+      output: web, pdf
+
+    - title: Multicast Rate Limiting
+      url: /5.2.28.html
+      output: web, pdf
+
+    - title: Group to RP Mapping
+      url: /5.2.29.html
+      output: web, pdf
+
+  - title: IPv6 Multicast Routing
+    output: web, pdf
+    folderitems:
+
+    - title: IPv6 PIM and MLD
+      url: /5.3.1.html
+      output: web, pdf
+
+    - title: IPv6 PIM BSR
+      url: /5.3.2.html
+      output: web, pdf
+
+    - title: IPv6 Embedded RP
+      url: /5.3.3.html
+      output: web, pdf
+
+    - title: IPv6 SSM
+      url: /5.3.4.html
+      output: web, pdf

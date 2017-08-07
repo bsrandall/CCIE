@@ -102,6 +102,9 @@ sidebars:
 - eigrp_sidebar
 - ospf_sidebar
 - bgp_sidebar
+- redistribution_sidebar
+- isis_sidebar
+- multicast_sidebar
 - other
 
 description: "CCIE Expanded Blueprint Documentation"

@@ -1,0 +1,45 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Redistribution
+  version:
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: Route Redistribution
+    output: web, pdf
+    folderitems:
+
+    - title: Metric Based Loops
+      url: /3.8.1.html
+      output: web, pdf
+      type: homepage
+
+    - title: Administrative Distance Based Loops
+      url: /3.8.2.html
+      output: web, pdf
+
+    - title: Route Tag Filtering
+      url: /3.8.3.html
+      output: web, pdf
+
+    - title: IP Route Profile
+      url: /3.8.4.html
+      output: web, pdf
+
+    - title: Debug IP Routing
+      url: /3.8.5.html
+      output: web, pdf
