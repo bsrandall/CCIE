@@ -1,0 +1,164 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: VPN
+  version:
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: MPLS
+    output: web, pdf
+    folderitems:
+
+    - title: MPLS Introduction
+      url: /4.1.0.html
+      output: web, pdf
+
+    - title: VRF Lite
+      url: /4.1.1.html
+      output: web, pdf
+
+    - title: MPLS LDP
+      url: /4.1.2.html
+      output: web, pdf
+
+    - title: MPLS Ping
+      url: /4.1.3.html
+      output: web, pdf
+
+    - title: MPLS Traceroute
+      url: /4.1.4.html
+      output: web, pdf
+
+    - title: MPLS Label Filtering
+      url: /4.1.5.html
+      output: web, pdf
+
+    - title: MP-BGP VPNv4
+      url: /4.1.6.html
+      output: web, pdf
+
+    - title: MP-BGP Prefix Filtering
+      url: /4.1.7.html
+      output: web, pdf
+
+    - title: PE-CE Routing with RIP
+      url: /4.1.8.html
+      output: web, pdf
+
+    - title: PE-CE Routing with OSPF
+      url: /4.1.9.html
+      output: web, pdf
+
+    - title: OSPF Sham-Link
+      url: /4.1.10.html
+      output: web, pdf
+
+    - title: PE-CE Routing with EIGRP
+      url: /4.1.11.html
+      output: web, pdf
+
+    - title: EIGRP Site-of-Origin
+      url: /4.1.12.html
+      output: web, pdf
+
+    - title: PE-CE Routing with BGP
+      url: /4.1.13.html
+      output: web, pdf
+
+    - title: BGP SoO Attribute
+      url: /4.1.14.html
+      output: web, pdf
+
+    - title: Internet Access
+      url: /4.1.15.html
+      output: web, pdf
+
+    - title: Route Leaking
+      url: /4.1.16.html
+      output: web, pdf
+
+    - title: MPLS VPN Performance Tuning
+      url: /4.1.17.html
+      output: web, pdf
+
+    - title: AToM
+      url: /4.1.18.html
+      output: web, pdf
+
+    - title: L2TPV3
+      url: /4.1.19.html
+      output: web, pdf
+
+    - title: VPLS
+      url: /4.1.20.html
+      output: web, pdf
+
+  - title: IPSec LAN-to-LAN
+    output: web, pdf
+    folderitems:
+
+    - title: IPSec Primer
+      url: /4.2.0.html
+      output: web, pdf
+
+    - title: ISAKMP Profiles
+      url: /4.2.1.html
+      output: web, pdf
+
+    - title: PSK Authentication
+      url: /4.2.2.html
+      output: web, pdf
+
+    - title: Static Crypto Maps
+      url: /4.2.3.html
+      output: web, pdf
+
+    - title: IPSec over GRE
+      url: /4.2.4.html
+      output: web, pdf
+
+    - title: Static VTI
+      url: /4.2.5.html
+      output: web, pdf
+
+    - title: GETVPN
+      url: /4.2.6.html
+      output: web, pdf
+
+  - title: DMVPN
+    output: web, pdf
+    folderitems:
+
+    - title: Single Hub
+      url: /4.3.1.html
+      output: web, pdf
+
+    - title: NHRP
+      url: /4.3.2.html
+      output: web, pdf
+
+    - title: DMVPN Phase 1, 2, and 3
+      url: /4.3.3.html
+      output: web, pdf
+
+    - title: QoS Profiles
+      url: /4.3.4.html
+      output: web, pdf
+
+    - title: QoS Pre-Classify
+      url: /4.3.5.html
+      output: web, pdf

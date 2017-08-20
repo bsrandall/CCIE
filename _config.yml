@@ -104,6 +104,7 @@ sidebars:
 - bgp_sidebar
 - redistribution_sidebar
 - isis_sidebar
+- vpn_sidebar
 - multicast_sidebar
 - other
 

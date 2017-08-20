@@ -40,5 +40,7 @@ topnav_dropdowns:
           url: /3.8.1.html
         - title: IS-IS
           url: /3.10.1
+        - title: VPN
+          url: /4.1.0
         - title: Multicast
           url: /5.1.1.html

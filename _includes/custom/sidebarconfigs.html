@@ -25,6 +25,9 @@
 {% elsif page.sidebar == "isis_sidebar" %}
 {% assign sidebar = site.data.sidebars.isis_sidebar.entries %}
 
+{% elsif page.sidebar == "vpn_sidebar" %}
+{% assign sidebar = site.data.sidebars.vpn_sidebar.entries %}
+
 {% elsif page.sidebar == "multicast_sidebar" %}
 {% assign sidebar = site.data.sidebars.multicast_sidebar.entries %}
 
@@ -69,6 +72,10 @@ sidebar configuration for print files
 
 {% if site.product == "isis" %}
 {% assign sidebar_pdf = site.data.sidebars.isis_sidebar.entries %}
+{% endif %}
+
+{% if site.product == "vpn" %}
+{% assign sidebar_pdf = site.data.sidebars.vpn_sidebar.entries %}
 {% endif %}
 
 {% if site.product == "multicast" %}
