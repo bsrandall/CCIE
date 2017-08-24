@@ -244,27 +244,27 @@ entries:
 
     folderitems:
     - title: Standard
-      url: /3.7.6.1.html
+      url: /3.7.7.1.html
       output: web, pdf
 
     - title: Extended
-      url: /3.7.6.2.html
+      url: /3.7.7.2.html
       output: web, pdf
 
     - title: No-Advertise
-      url: /3.7.6.3.html
+      url: /3.7.7.3.html
       output: web, pdf
 
     - title: No-Export
-      url: /3.7.6.4.html
+      url: /3.7.7.4.html
       output: web, pdf
 
     - title: Local-AS
-      url: /3.7.6.5.html
+      url: /3.7.7.5.html
       output: web, pdf
 
     - title: Deleting
-      url: /3.7.6.6.html
+      url: /3.7.7.6.html
       output: web, pdf
 
   - title: Filtering
