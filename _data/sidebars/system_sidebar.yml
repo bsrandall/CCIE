@@ -1,0 +1,217 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: System Management
+  version:
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: Device Management
+    output: web, pdf
+    folderitems:
+
+    - title: Console
+      url: /8.1.1.html
+      output: web, pdf
+      type: homepage
+
+    - title: Telnet & Telnet Service Options
+      url: /8.1.2.html
+      output: web, pdf
+
+    - title: SSH
+      url: /8.1.3.html
+      output: web, pdf
+
+    - title: Terminal Line Settings
+      url: /8.1.4.html
+      output: web, pdf
+
+    - title: HTTP Server & Client
+      url: /8.1.5.html
+      output: web, pdf
+
+    - title: FTP Server & Client
+      url: /8.1.6.html
+      output: web, pdf
+
+    - title: TFTP Server & Client
+      url: /8.1.7.html
+      output: web, pdf
+
+    - title: SNMPv2 Server
+      url: /8.1.8.html
+      output: web, pdf
+
+    - title: SNMPv2c Access Control
+      url: /8.1.9.html
+      output: web, pdf
+
+    - title: SNMP Traps & Informs
+      url: /8.1.10.html
+      output: web, pdf
+
+    - title: SNMP - CPU & Memory Thresholds
+      url: /8.1.11.html
+      output: web, pdf
+
+    - title: SNMPv3
+      url: /8.1.12.html
+      output: web, pdf
+
+    - title: SNMP MAC Address Notifications
+      url: /8.1.13.html
+      output: web, pdf
+
+    - title: SNMP Notifications of Syslog Messages
+      url: /8.1.14.html
+      output: web, pdf
+
+  - title: Logging
+    output: web, pdf
+    folderitems:
+
+    - title: System Message Logging
+      url: /8.2.1.html
+      output: web, pdf
+      type: homepage
+
+    - title: Syslog Logging
+      url: /8.2.2.html
+      output: web, pdf
+
+    - title: Logging Counting & Timestamps
+      url: /8.2.3.html
+      output: web, pdf
+
+    - title: Logging to Flash Memory
+      url: /8.2.4.html
+      output: web, pdf
+
+    - title: Configuration Change Notification and Logging
+      url: /8.2.5.html
+      output: web, pdf
+
+    - title: Configuration Archive and Rollback
+      url: /8.2.6.html
+      output: web, pdf
+
+    - title: Logging with Access-Lists
+      url: /8.2.7.html
+      output: web, pdf
+
+  - title: NTP
+    output: web, pdf
+    folderitems:
+
+    - title: NTP
+      url: /8.3.1.html
+      output: web, pdf
+      type: homepage
+
+    - title: NTP Authentication
+      url: /8.3.2.html
+      output: web, pdf
+
+    - title: NTP Access Control
+      url: /8.3.3.html
+      output: web, pdf
+
+    - title: NTP Versions 3 & 4
+      url: /8.3.4.html
+      output: web, pdf
+
+  - title: EEM
+    output: web, pdf
+    folderitems:
+
+    - title: KRON Command SChedule
+      url: /8.4.1.html
+      output: web, pdf
+      type: homepage
+
+    - title: EEM Scripting: Interface Events
+      url: /8.4.2.html
+      output: web, pdf
+
+    - title: EEM Scripting: Syslog Events
+      url: /8.4.3.html
+      output: web, pdf
+
+    - title: EEM Scripting: CLI Events
+      url: /8.4.4.html
+      output: web, pdf
+
+    - title: EEM Scripting: Periodic Scheduling
+      url: /8.4.5.html
+      output: web, pdf
+
+    - title: EEM Scripting: Advanced Features
+      url: /8.4.6.html
+      output: web, pdf
+
+    - title: EEM Applets
+      url: /8.4.7.html
+      output: web, pdf
+
+  - title: Miscellaneous System Management
+    output: web, pdf
+    folderitems:
+
+    - title: Auto-Install over LAN Interfaces Using DHCP
+      url: /8.5.1.html
+      output: web, pdf
+      type: homepage
+
+    - title: Auto-Install over LAN Interfaces Using RARP
+      url: /8.5.2.html
+      output: web, pdf
+
+    - title: IOS Menus
+      url: /8.5.3.html
+      output: web, pdf
+
+    - title: IOS Banners
+      url: /8.5.4.html
+      output: web, pdf
+
+    - title: Exec Aliases
+      url: /8.5.5.html
+      output: web, pdf
+
+    - title: TCP Keepalives
+      url: /8.5.6.html
+      output: web, pdf
+
+    - title: Generating Exception Core Dumps
+      url: /8.5.7.html
+      output: web, pdf
+
+    - title: Conditional Debugging
+      url: /8.5.8.html
+      output: web, pdf
+
+    - title: Tuning Packet Buffers
+      url: /8.5.9.html
+      output: web, pdf
+
+    - title: CDP
+      url: /8.5.10.html
+      output: web, pdf
+
+    - title: Remote Shell
+      url: /8.5.11.html
+      output: web, pdf

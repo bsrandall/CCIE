@@ -1,0 +1,237 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Security
+  version:
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: Layer 2 Security
+    output: web, pdf
+    folderitems:
+
+    - title: Port Protection
+      url: /7.1.1.html
+      output: web, pdf
+      type: homepage
+
+    - title: Private VLANs
+      url: /7.1.2.html
+      output: web, pdf
+
+    - title: Port Based ACLs
+      url: /7.1.3.html
+      output: web, pdf
+
+    - title: VLAN ACLs for IP Traffic
+      url: /7.1.4.html
+      output: web, pdf
+
+    - title: VLAN ACLs for Non-IP Traffic
+      url: /7.1.5.html
+      output: web, pdf
+
+    - title: Storm Control
+      url: /7.1.6.html
+      output: web, pdf
+
+    - title: Port Security
+      url: /7.1.7.html
+      output: web, pdf
+
+    - title: HSRP and Port Security
+      url: /7.1.8.html
+      output: web, pdf
+
+    - title: ErrDisable Recovery
+      url: /7.1.9.html
+      output: web, pdf
+
+    - title: DHCP Snooping
+      url: /7.1.10.html
+      output: web, pdf
+
+    - title: DHCP Snooping and the Information Option
+      url: /7.1.11.html
+      output: web, pdf
+
+    - title: Dynamic ARP Inspection
+      url: /7.1.12.html
+      output: web, pdf
+
+    - title: IP Source Guard
+      url: /7.1.13.html
+      output: web, pdf
+
+    - title: 802.1x
+      url: /7.1.14.html
+      output: web, pdf
+
+  - title: Management Plane Security
+    output: web, pdf
+    folderitems:
+
+    - title: AAA Authentication Lists
+      url: /7.2.1.html
+      output: web, pdf
+      type: homepage
+
+    - title: AAA Exec Authorization
+      url: /7.2.2.html
+      output: web, pdf
+
+    - title: AAA Local Command Authorization
+      url: /7.2.3.html
+      output: web, pdf
+
+    - title: Controlling Terminal Line Access
+      url: /7.2.4.html
+      output: web, pdf
+
+    - title: IOS Login Enhancements
+      url: /7.2.5.html
+      output: web, pdf
+
+    - title: IOS REsilient Configuration
+      url: /7.2.6.html
+      output: web, pdf
+
+    - title: Role-based CLI
+      url: /7.2.7.html
+      output: web, pdf
+
+    - title: AAA with TACACS+ and Radius
+      url: /7.2.8.html
+      output: web, pdf
+
+  - title: Control Plane Security
+    output: web, pdf
+    folderitems:
+
+    - title: Controlling the ICMP Messages Rate
+      url: /7.3.1.html
+      output: web, pdf
+      type: homepage
+
+    - title: Control Plane Policing
+      url: /7.3.2.html
+      output: web, pdf
+
+    - title: Control Plane Protection (CPPr)
+      url: /7.3.3.html
+      output: web, pdf
+
+    - title: Control Plane Host
+      url: /7.3.4.html
+      output: web, pdf
+
+  - title: Data Plane Security
+    output: web, pdf
+    folderitems:
+
+    - title: Traffic Filtering Using Standard Access-Lists
+      url: /7.4.1.html
+      output: web, pdf
+      type: homepage
+
+    - title: Traffic Filtering Using Extended Access-Lists
+      url: /7.4.2.html
+      output: web, pdf
+
+    - title: Traffic Filtering Using Reflexive Access-Lists
+      url: /7.4.3.html
+      output: web, pdf
+
+    - title: IPv6 Traffic Filter
+      url: /7.4.4.html
+      output: web, pdf
+
+    - title: Filtering Fragmented Packets
+      url: /7.4.5.html
+      output: web, pdf
+
+    - title: Filtering Packets with Dynamic Access-Lists
+      url: /7.4.6.html
+      output: web, pdf
+
+    - title: Filtering Traffic with Time-Based Access-Lists
+      url: /7.4.7.html
+      output: web, pdf
+
+    - title: Filtering Traffic with Policy-Based Routing
+      url: /7.4.8.html
+      output: web, pdf
+
+    - title: Preventing Packet Spoofing with uRPF
+      url: /7.4.9.html
+      output: web, pdf
+
+    - title: Using NBAR for Content-Based Filtering
+      url: /7.4.10.html
+      output: web, pdf
+
+    - title: TCP Intercept
+      url: /7.4.11.html
+      output: web, pdf
+
+    - title: TCP Intercept Watch Mode
+      url: /7.4.12.html
+      output: web, pdf
+
+    - title: Packet Logging with Access-lIsts
+      url: /7.4.13.html
+      output: web, pdf
+
+    - title: IP Source Tracker
+      url: /7.4.14.html
+      output: web, pdf
+
+    - title: IOS ACL Selective IP Option Drop
+      url: /7.4.15.html
+      output: web, pdf
+      type: homepage
+
+    - title: Flexible Packet Matching
+      url: /7.4.16.html
+      output: web, pdf
+
+    - title: IPv6 First Hop Security - RA Guard
+      url: /7.4.17.html
+      output: web, pdf
+
+    - title: IPv6 First Hop Security - DHCP Guard
+      url: /7.4.18.html
+      output: web, pdf
+
+    - title: IPv6 First Hop Security - Binding Table
+      url: /7.4.19.html
+      output: web, pdf
+
+    - title: IPv6 First Hop Security - Device Tracking
+      url: /7.4.20.html
+      output: web, pdf
+
+    - title: IPv6 First Hop Security - ND Inspection / Snooping
+      url: /7.4.21.html
+      output: web, pdf
+
+    - title: IPv6 First Hop Security - Source Guard
+      url: /7.4.22.html
+      output: web, pdf
+
+    - title: IPv6 First Hop Security - PACL
+      url: /7.4.23.html
+      output: web, pdf

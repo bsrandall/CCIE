@@ -1,0 +1,125 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: QoS
+  version:
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: QoS
+    output: web, pdf
+    folderitems:
+
+    - title: Hold Queue and Tx-Ring
+      url: /6.1.html
+      output: web, pdf
+      type: homepage
+
+    - title: Weighted Fair Queuing (WFQ)
+      url: /6.2.html
+      output: web, pdf
+
+    - title: Selective Packet Discard
+      url: /6.3.html
+      output: web, pdf
+
+    - title: Payload Compression on Serial Links
+      url: /6.4.html
+      output: web, pdf
+
+    - title: Generic TCP/UDP Header Compression
+      url: /6.5.html
+      output: web, pdf
+
+    - title: MLP Link Fragmentation and Interleaving
+      url: /6.6.html
+      output: web, pdf
+
+    - title: MQC Classification and Marking
+      url: /6.7.html
+      output: web, pdf
+
+    - title: MQC Bandwidth Reservations and CBWFQ
+      url: /6.8.html
+      output: web, pdf
+
+    - title: MQC Bandwidth Percent
+      url: /6.9.html
+      output: web, pdf
+
+    - title: MQC LLQ and Remaining Bandwidth Reservations
+      url: /6.10.html
+      output: web, pdf
+
+    - title: MQC WRED
+      url: /6.11.html
+      output: web, pdf
+
+    - title: MQC Dynamic Flows and WRED
+      url: /6.12.html
+      output: web, pdf
+
+    - title: MQC WRED with ECN
+      url: /6.13.html
+      output: web, pdf
+
+    - title: MQC Class-Based Generic Traffic Shaping
+      url: /6.14.html
+      output: web, pdf
+
+    - title: MQC Class-Based GTS and CBWFQ
+      url: /6.15.html
+      output: web, pdf
+
+    - title: MQC Single-Rate Three-Color Policer
+      url: /6.16.html
+      output: web, pdf
+
+    - title: MQC Hioerarchical Policers
+      url: /6.17.html
+      output: web, pdf
+
+    - title: MQC Two-Rate Three-Color Policers
+      url: /6.18.html
+      output: web, pdf
+
+    - title: MQC Peak Shaping
+      url: /6.19.html
+      output: web, pdf
+
+    - title: MQC Percent-Based Policing
+      url: /6.20.html
+      output: web, pdf
+
+    - title: MQC Header Compression
+      url: /6.21.html
+      output: web, pdf
+
+    - title: Voice Adaptive Traffic SHaping
+      url: /6.22.html
+      output: web, pdf
+
+    - title: Voice Adaptive Fragmentation
+      url: /6.23.html
+      output: web, pdf
+
+    - title: Advanced HTTP Classification with NBAR
+      url: /6.24.html
+      output: web, pdf
+
+    - title: Layer 2 QoS
+      url: /6.25.html
+      output: web, pdf

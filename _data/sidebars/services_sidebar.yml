@@ -1,0 +1,298 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Network Services
+  version:
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: Object Tracking
+    output: web, pdf
+    folderitems:
+
+    - title: IP SLA
+      url: /9.1.1.html
+      output: web, pdf
+      type: homepage
+
+    - title: Enhanced Object Tracking
+      url: /9.1.2.html
+      output: web, pdf
+
+    - title: Tracking Lists
+      url: /9.1.3.html
+      output: web, pdf
+
+  - title: First Hop Redundancy Protocols
+    output: web, pdf
+    folderitems:
+
+    - title: HSRP
+      url: /9.2.1.html
+      output: web, pdf
+      type: homepage
+
+    - title: VRRP
+      url: /9.2.2.html
+      output: web, pdf
+
+    - title: GLBP
+      url: /9.2.3.html
+      output: web, pdf
+
+    - title: Router Redundancy & Object Tracking
+      url: /9.2.4.html
+      output: web, pdf
+
+    - title: IPv6 RS & RA Redundancy
+      url: /9.2.5.html
+      output: web, pdf
+
+  - title: DHCP
+    output: web, pdf
+    folderitems:
+
+    - title: DHCP Server
+      url: /9.3.1.html
+      output: web, pdf
+      type: homepage
+
+    - title: DHCP Client
+      url: /9.3.2.html
+      output: web, pdf
+
+    - title: DHCP Relay
+      url: /9.3.3.html
+      output: web, pdf
+
+    - title: DHCP Host Pools
+      url: /9.3.4.html
+      output: web, pdf
+
+    - title: DHCP On-Demand Pool
+      url: /9.3.5.html
+      output: web, pdf
+      type: homepage
+
+    - title: DHCP Proxy
+      url: /9.3.6.html
+      output: web, pdf
+
+    - title: DHCP Information Option
+      url: /9.3.7.html
+      output: web, pdf
+
+    - title: DHCP Authorized ARP
+      url: /9.3.8.html
+      output: web, pdf
+
+    - title: SLAAC/DHCPv6 Interaction
+      url: /9.3.9.html
+      output: web, pdf
+      type: homepage
+
+    - title: Stateful & Stateless DHCPv6
+      url: /9.3.10.html
+      output: web, pdf
+
+    - title: DHCPv6 Prefix Delegation
+      url: /9.3.11.html
+      output: web, pdf
+
+  - title: DNS
+    output: web, pdf
+    folderitems:
+
+    - title: IOS Authoritative DNS Server
+      url: /9.4.1.html
+      output: web, pdf
+      type: homepage
+
+    - title: IOS Caching DNS Server
+      url: /9.4.2.html
+      output: web, pdf
+
+    - title: IOS DNS Spoofing
+      url: /9.4.3.html
+      output: web, pdf
+
+  - title: NAT
+    output: web, pdf
+    folderitems:
+
+    - title: Basic NAT
+      url: /9.5.1.html
+      output: web, pdf
+      type: homepage
+
+    - title: NAT Overload
+      url: /9.5.2.html
+      output: web, pdf
+
+    - title: NAT with Route Maps
+      url: /9.5.3.html
+      output: web, pdf
+
+    - title: Static NAT
+      url: /9.5.4.html
+      output: web, pdf
+
+    - title: Static PAT
+      url: /9.5.5.html
+      output: web, pdf
+
+    - title: Static NAT and IP Aliasing
+      url: /9.5.6.html
+      output: web, pdf
+
+    - title: Static Policy NAT
+      url: /9.5.7.html
+      output: web, pdf
+
+    - title: NAT with Overlapping Subnets
+      url: /9.5.8.html
+      output: web, pdf
+
+    - title: TCP Load Distribution with NAT
+      url: /9.5.9.html
+      output: web, pdf
+
+    - title: Stateful NAT with HSRP
+      url: /9.5.10.html
+      output: web, pdf
+
+    - title: Stateful NAT with Primary/Backup
+      url: /9.5.11.html
+      output: web, pdf
+
+    - title: NAT Virtual Interface
+      url: /9.5.12.html
+      output: web, pdf
+
+    - title: NAT Default Interface
+      url: /9.5.13.html
+      output: web, pdf
+
+    - title: Reversible NAT
+      url: /9.5.14.html
+      output: web, pdf
+
+    - title: Static Extendable NAT
+      url: /9.5.15.html
+      output: web, pdf
+
+    - title: NAT ALG
+      url: /9.5.16.html
+      output: web, pdf
+
+  - title: Traffic Accounting
+    output: web, pdf
+    folderitems:
+
+    - title: IP Precednece Accounting
+      url: /9.6.1.html
+      output: web, pdf
+      type: homepage
+
+    - title: IP Output Packet Accounting
+      url: /9.6.2.html
+      output: web, pdf
+
+    - title: IP Access Violation Accounting
+      url: /9.6.3.html
+      output: web, pdf
+
+    - title: MAC Address Accounting
+      url: /9.6.4.html
+      output: web, pdf
+
+  - title: Netflow
+    output: web, pdf
+    folderitems:
+
+    - title: Netflow v5 & v9
+      url: /9.7.1.html
+      output: web, pdf
+      type: homepage
+
+    - title: Netflow Ingress and Egress
+      url: /9.7.2.html
+      output: web, pdf
+
+    - title: Netflow Top Talkers
+      url: /9.7.3.html
+      output: web, pdf
+
+    - title: Netflow Aggregation Cache
+      url: /9.7.4.html
+      output: web, pdf
+
+    - title: Netflow Random Sampling
+      url: /9.7.5.html
+      output: web, pdf
+
+    - title: Netflow Input Filters
+      url: /9.7.6.html
+      output: web, pdf
+
+    - title: Netflow Export
+      url: /9.7.7.html
+      output: web, pdf
+
+  - title: Miscellaneous Network Services
+    output: web, pdf
+    folderitems:
+
+    - title: Proxy ARP
+      url: /9.8.1.html
+      output: web, pdf
+      type: homepage
+
+    - title: IRDP
+      url: /9.8.2.html
+      output: web, pdf
+
+    - title: Router ICMP Settings & TCP Optimization
+      url: /9.8.3.html
+      output: web, pdf
+
+    - title: IOS Small Services and Finger
+      url: /9.8.4.html
+      output: web, pdf
+
+    - title: Directed Broadcasts & UDP Forwarding
+      url: /9.8.5.html
+      output: web, pdf
+
+    - title: NBAR Protocol Discovery
+      url: /9.8.6.html
+      output: web, pdf
+
+    - title: IP Event Dampening
+      url: /9.8.7.html
+      output: web, pdf
+
+    - title: Conditional Debugging
+      url: /9.8.8.html
+      output: web, pdf
+
+    - title: Embedded Packet Capture
+      url: /9.8.9.html
+      output: web, pdf
+
+    - title: Interpreting Packet Captures
+      url: /9.8.10.html
+      output: web, pdf
