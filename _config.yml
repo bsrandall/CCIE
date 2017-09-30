@@ -106,7 +106,10 @@ sidebars:
 - isis_sidebar
 - vpn_sidebar
 - multicast_sidebar
-- other
+- qos_sidebar
+- security_sidebar
+- system_sidebar
+- services_sidebar
 
 description: "CCIE Expanded Blueprint Documentation"
 # the description is used in the feed.xml file

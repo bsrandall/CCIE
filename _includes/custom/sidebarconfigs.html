@@ -31,6 +31,18 @@
 {% elsif page.sidebar == "multicast_sidebar" %}
 {% assign sidebar = site.data.sidebars.multicast_sidebar.entries %}
 
+{% elsif page.sidebar == "qos_sidebar" %}
+{% assign sidebar = site.data.sidebars.qos_sidebar.entries %}
+
+{% elsif page.sidebar == "security_sidebar" %}
+{% assign sidebar = site.data.sidebars.security_sidebar.entries %}
+
+{% elsif page.sidebar == "system_sidebar" %}
+{% assign sidebar = site.data.sidebars.system_sidebar.entries %}
+
+{% elsif page.sidebar == "services_sidebar" %}
+{% assign sidebar = site.data.sidebars.services_sidebar.entries %}
+
 
 {% else %}
 {% assign sidebar = site.data.sidebars.home_sidebar.entries %}
