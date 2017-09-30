@@ -143,23 +143,23 @@ entries:
       output: web, pdf
       type: homepage
 
-    - title: EEM Scripting: Interface Events
+    - title: EEM Scripting - Interface Events
       url: /8.4.2.html
       output: web, pdf
 
-    - title: EEM Scripting: Syslog Events
+    - title: EEM Scripting - Syslog Events
       url: /8.4.3.html
       output: web, pdf
 
-    - title: EEM Scripting: CLI Events
+    - title: EEM Scripting - CLI Events
       url: /8.4.4.html
       output: web, pdf
 
-    - title: EEM Scripting: Periodic Scheduling
+    - title: EEM Scripting - Periodic Scheduling
       url: /8.4.5.html
       output: web, pdf
 
-    - title: EEM Scripting: Advanced Features
+    - title: EEM Scripting - Advanced Features
       url: /8.4.6.html
       output: web, pdf
 
