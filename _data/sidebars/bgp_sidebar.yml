@@ -382,3 +382,7 @@ entries:
     - title: BGP Backdoor
       url: /3.7.13.3.html
       output: web, pdf
+
+    - title: BGP Table Versions
+      url: /3.7.13.4.html
+      output: web, pdf
